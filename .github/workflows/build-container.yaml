@@ -182,7 +182,7 @@ jobs:
 
       - name: Scan image with Anchore
         id: scan
-        uses: anchore/scan-action@v6
+        uses: anchore/scan-action@v7
         with:
           image: localbuild/${{ env.IMAGE_NAME }}:test
           fail-build: true
