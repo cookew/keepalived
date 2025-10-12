@@ -1,1 +1,1 @@
-[![GitHub Actions build container](https://github.com/cookew/keepalived/actions/workflows/build-container.yml/badge.svg)](https://github.com/cookew/keepalived/actions/workflows/build-container.yml)
+[![Build Container](https://github.com/cookew/keepalived/actions/workflows/build-container.yaml/badge.svg)](https://github.com/cookew/keepalived/actions/workflows/build-container.yaml)
