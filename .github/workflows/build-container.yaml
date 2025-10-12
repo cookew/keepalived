@@ -73,10 +73,6 @@ jobs:
           path: trivy-report.json
           retention-days: 30
 
-      - name: List files
-        run: |
-          find /home || true
-
       - name: Generate Trivy html report
         uses: aquasecurity/trivy-action@0.33.1
         with:
