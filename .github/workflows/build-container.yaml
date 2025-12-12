@@ -67,7 +67,7 @@ jobs:
           vuln-type: os,library
 
       - name: Upload Trivy json report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: trivy-report-json
           path: trivy-report.json
@@ -89,7 +89,7 @@ jobs:
           vuln-type: os,library
 
       - name: Upload Trivy html report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: trivy-report-html
           path: trivy-report.html
@@ -111,7 +111,7 @@ jobs:
           vuln-type: os,library
 
       - name: Upload Trivy xml report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: trivy-report-xml
           path: trivy-report.xml
